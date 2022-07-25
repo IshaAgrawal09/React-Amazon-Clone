@@ -9,3 +9,9 @@
 .proceed h1{
     color: green;
 }
+@media (max-width:760px){
+    .proceed{
+        margin: 40% 0 0 10%;
+    }
+
+}

@@ -16,3 +16,19 @@
     font-weight: 500;
     font-size: 14px;
 }
+@media (min-width:640px) and (max-width:760px){
+  .nav{
+    margin-top: 5%;
+  }
+}
+@media (min-width:500px) and (max-width:640px){
+    .nav{
+        margin-top: 6.9%;
+    }
+}
+@media (max-width:500px){
+    .nav{
+        padding: 1%;
+        margin-top: 7%;
+    }
+}
