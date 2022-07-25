@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headerss{
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: space-around;
+
+}
+#checkoutLogo{
+    width: 100px;
+    height: auto;
+}
+#checkoutLogo img{
+    width: 100%;
+    height: auto;
+}
+#checkoutHead h2{
+    font-weight: 400;
+}
+.address{
+    margin: 3.2% 1%;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.address p{
+    line-height: 1.5;
+}
+ .bold{
+    font-weight: 600;
+}
+.address button, .orderDetails button{
+    cursor: pointer;
+    border: none;
+    color: #007185;
+    background: none;
+}
+.orderDetails{
+    margin: 3.2% 1%;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.orderDetails h3{
+    color: green;
+}
+.payment{
+    display: flex;
+}
+.payment div{
+    margin: 3.2% ;
+}
+.payment #orange{
+    color:#c45500;
+}
+.method{
+    margin: 4%;
+    border: 1px solid #eee;
+    padding: 4%;
+    border-radius: 7px;
+    width: 70%;
+}
+.method label{
+    padding: 2% 1%;
+}
+.method input{
+    margin: 2% 0;
+}
+.method label p{
+    margin-left: 2.5%;
+}
+
+#proceed{
+    margin: 4% 45%;
+}
+#proceed button{
+    cursor: pointer;
+    font-size: 16px;
+    padding: 6% 25%;
+    background: #ebb057;
+    border: 1px solid #FF8F00;
+    border-radius: 5px;
+
+}
